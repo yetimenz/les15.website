@@ -1,0 +1,47 @@
+/* styles.css - CSS-bestand voor stijlen */
+
+body {
+    background-color: #f0f0f0; /* Achtergrondkleur van de hele pagina */
+    text-align: center; /* Centraal uitlijnen van tekst */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Lettertype voor de pagina */
+}
+
+header, footer {
+    background-color: #333; /* Achtergrondkleur van de header en footer */
+    color: white; /* Tekstkleur in de header en footer */
+    padding: 10px 0; /* Binnenmarge van 10 pixels boven en onder */
+}
+
+nav ul {
+    list-style: none; /* Geen opsommingstekens */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Horizontale uitlijning van menu-items */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Kleur van de links */
+    text-decoration: none; /* Geen onderstreping */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
+
+main {
+    background-color: #fff; /* Achtergrondkleur van de hoofdinhoud */
+    padding: 20px; /* Binnenmarge van 20 pixels */
+    margin: 20px auto; /* Buitenmarge van 20 pixels boven en onder, automatisch links en rechts */
+    width: 80%; /* Breedte van de hoofdinhoud */
+    max-width: 800px; /* Maximale breedte van de hoofdinhoud */
+}
+
+footer {
+    background-color: #333; /* Achtergrondkleur van de footer */
+    color: white; /* Tekstkleur in de footer */
+    padding: 10px 0; /* Binnenmarge van 10 pixels boven en onder */
+}
